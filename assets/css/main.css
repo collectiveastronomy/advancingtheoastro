@@ -57,6 +57,12 @@
 	}
 
 /* Grid */
+	.center-div p
+	{
+	     position: relative;
+	     top: 50%;
+	     transform: perspective(1px) translateY(-50%);
+	}
 
 	.row {
 		border-bottom: solid 1px transparent;
